@@ -1,2 +1,7 @@
 _site/
 
+#IDE files (PyCharm/ IntelliJ)
+.idea/
+
+
+*.lock
