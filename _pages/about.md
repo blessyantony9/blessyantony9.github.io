@@ -14,6 +14,4 @@ My research interests include solving impactful problems in Computational Biolog
 
 Prior to starting graduate school, I completed my bachelor's degree in Computer Engineering at University of Mumbai, India in 2016. Thereafter, I worked as a Software Engineer for J.P. Morgan Chase & Co. at Mumbai for four years. The industrial experience helped me hone my software development skills and learn about the journey of an application from proof-of-concept to the deployment in production.
 
-I am also an avid reader and mostly love fiction though recently I have been dabbling with non-fiction as well. I have developed a liking for baking in the past year with my latest experiment being sweet-potato cupcakes (yes, vegetable flavored cupcakes)!
-
 I am open to internship or co-op positions with research-oriented roles in Computational Biology and Bioinformatics.
