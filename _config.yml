@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Blessy Antony"
   avatar           : "blessyantony.jpg"
-  bio              : "Ph.D. student,"
-  lab              : "Computational Systems Biology lab,"
-  department       : "Department of Computer Science,"
-  university       : "Virginia Tech"
+  bio              : "Ph.D. student | Virginia Tech | Computational Systems Biology lab. Natural Language Processing, Graph Machine Learning, Bioinformatics"
+  lab              : ""
+  department       : ""
+  university       : ""
   location         : "Blacksburg, VA, USA"
   employer         :
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Blessy+Antony"
