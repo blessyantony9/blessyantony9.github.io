@@ -17,6 +17,7 @@ This complex problem of zoonosis prediction can be solved in a two-fold manner -
 - Mutation Prediction: Interpret the host prediction models to identify the mutations causing host shift.
 
 Talk: [Zoonosis Prediction Using Language Models](https://iscb.junolive.co/ismb2023/library/search/ISMBECCB2023_1710)
+
 Poster: [Zoonosis Prediction Using Language Models Poster](/files/2023-07-06-ismb-zoonosis-prediction-using-language-models-poster.pdf)
 
 ## Predictive Models of Long COVID
