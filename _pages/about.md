@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year Ph.D. student in the Department of Computer Science at Virginia Tech, Blacksburg, USA. I am co-advised by [Dr. T. M. Murali](https://bioinformatics.cs.vt.edu/~murali/) and [Dr. Anuj Karpatne](https://anujkarpatne.github.io/). 
+I am a Ph.D. candidate in the Department of Computer Science at Virginia Tech, Blacksburg, USA. I am co-advised by [Dr. T. M. Murali](https://bioinformatics.cs.vt.edu/~murali/) and [Dr. Anuj Karpatne](https://anujkarpatne.github.io/). 
 
 My research interests include solving impactful problems in Computational Biology and Bioinformatics using Natural Language Processing and Graph Machine Learning. Currently, I am using language models to draw information from viral genome and study the evolution of viruses. 
 
