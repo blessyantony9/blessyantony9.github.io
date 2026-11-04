@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-You can find the latest list of my publications on [my Google Scholar profile](https://scholar.google.com/citations?hl=en&authuser=1&user=nGvGIhcAAAAJ).
+You can find the latest list of my publications on [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=1&user=nGvGIhcAAAAJ).
 
 {% include base_path %}
 
