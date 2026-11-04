@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-You can find the latest list of my publications on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+You can find the latest list of my publications on [my Google Scholar profile](https://scholar.google.com/citations?hl=en&authuser=1&user=nGvGIhcAAAAJ).
 
 {% include base_path %}
 
