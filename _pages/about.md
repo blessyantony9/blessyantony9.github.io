@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in the Department of Computer Science at Virginia Tech, Blacksburg, USA. I am co-advised by [Dr. T. M. Murali](https://bioinformatics.cs.vt.edu/~murali/) and [Dr. Anuj Karpatne](https://anujkarpatne.github.io/). 
+I am a Postdoctoral Researcher in the [NSF COMPASS Center](https://compass-pipp.org/) at Virginia Tech, Blacksburg, USA. I am co-advised by [Dr. T. M. Murali](https://bioinformatics.cs.vt.edu/~murali/) and [Dr. Anuj Karpatne](https://anujkarpatne.github.io/). I completed my Ph.D. in Computer Science at Virginia Tech under the mentorship of Dr. Murali and Dr. Karpatne.
 
 My research interests include solving impactful problems in Computational Biology and Bioinformatics using Natural Language Processing and Graph Machine Learning. Currently, I am using language models to draw information from viral genome and study the evolution of viruses. 
 

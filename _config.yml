@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Blessy Antony"
 title_separator          : "-"
-name                     : &name "Blessy Antyony"
-description              : &description "Ph.D. student at Virginia Tech"
+name                     : &name "Blessy Antyony, Ph.D."
+description              : &description "Postdoctoral Researcher at NSF COMPASS Center, Virginia Tech"
 url                      : https://blessyantony9.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "blessyantony9.github.io"
@@ -83,9 +83,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Blessy Antony"
+  name             : "Blessy Antony, Ph.D."
   avatar           : "blessyantony.jpg"
-  bio              : "Ph.D. student | Virginia Tech. Natural Language Processing, Graph Machine Learning, Computational Systems Biology"
+  bio              : "Postdoctoral Researcher | Virginia Tech. Natural Language Processing, Information Extraction, Graph Machine Learning, Computational Systems Biology"
   lab              : ""
   department       : ""
   university       : ""
