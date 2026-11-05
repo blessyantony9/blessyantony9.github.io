@@ -1,35 +1,39 @@
 ---
-layout: archive
-title: ""
+layout: page
+title: "Research"
 permalink: /research/
-author_profile: true
 ---
 
-{% include base_path %}
+<div class="project">
+<h2>Modeling Organoid Maturation</h2>
+<p><em>Postdoctoral research, NSF COMPASS Center, Virginia Tech &middot; 2026&ndash;present</em></p>
+<p>Developing computational approaches to model organoids — three-dimensional multicellular structures derived from stem cells that mimic native organ function. I'm orchestrating several computational methods that predict cellular responses to perturbations into an agentic framework for modeling organoid maturation, and implementing in silico models of organoids to simulate different experimental conditions, reducing the time and resources needed for exploratory wet-lab analyses.</p>
+</div>
 
-# Research Projects
-## Modeling Viral Evolution
-Learn and predict the zoonotic evolution of viruses with the goal of preparing for the emergence of new pathogens. 
-Build computational models to predict the mutations that enable an animal virus to shift hosts and adapt to human cells.
-This complex problem of zoonosis prediction can be solved in a two-fold manner - 
+<div class="project">
+<h2>VILLA: Retrieval-Augmented Information Extraction from the Literature</h2>
+<p><em>Ph.D. research, Murali Lab, Virginia Tech</em></p>
+<p>Designed VILLA, a retrieval-augmented generation (RAG) framework to accurately retrieve information from scientific publications using large language models. Benchmarked general-purpose and domain-specific LLMs, and RAG- and agent-based frameworks, for curating datasets in virology, working with virologists from the NSF COMPASS Center to obtain ground-truth datasets.</p>
+<p>Publication: <a href="/publications/">VILLA (KDD 2026)</a></p>
+</div>
 
-- Host Prediction: Given the protein sequence of a virus, predict which host(s) the virus will infect.
-- Mutation Prediction: Interpret the host prediction models to identify the mutations causing host shift.
+<div class="project">
+<h2>HAVEN: A Viral Protein Language Model for Host Prediction</h2>
+<p><em>Ph.D. research, Murali Lab, Virginia Tech</em></p>
+<p>Developed HAVEN, a viral protein language model with a hierarchical self-attention architecture that generates rich embeddings for viral protein sequences of any length. Pretrained HAVEN on 1.2 million viral protein sequences using masked language modeling, then fine-tuned it on a systematically curated virus-host dataset so it can accept any viral protein sequence and predict its host. Assessed generalizability by integrating HAVEN with a few-shot learning framework to predict rare and unseen hosts.</p>
+<p>Related talk: <a href="https://iscb.junolive.co/ismb2023/library/search/ISMBECCB2023_1710" target="_blank" rel="noopener">Zoonosis Prediction Using Language Models</a> &middot; <a href="/files/2023-07-06-ismb-zoonosis-prediction-using-language-models-poster.pdf" target="_blank" rel="noopener">poster</a></p>
+</div>
 
-Talk: [Zoonosis Prediction Using Language Models](https://iscb.junolive.co/ismb2023/library/search/ISMBECCB2023_1710)
+<div class="project">
+<h2>Predictive Models of Long COVID</h2>
+<p><em>Ph.D. research, Murali Lab &amp; National Clinical Cohort Collaborative (N3C)</em></p>
+<p>Built machine learning models to predict post-acute sequelae of SARS-CoV-2 infection (PASC, or long COVID) from the electronic health records of acute COVID-19 patients in the <a href="https://ncats.nih.gov/n3c" target="_blank" rel="noopener">National Clinical Cohort Collaborative</a> — the largest harmonized EHR repository of COVID-19 patients in the US.</p>
+<p>Trained logistic regression and random forest models using symptoms, medications, treatment measures, comorbidities, and demographic information; used Boruta feature selection and k-fold cross-validation, reaching a mean AUROC of 0.70. Identified risk factors using SHAP-based interpretation and performed a cross-site analysis of how different data sources affect model generalizability.</p>
+<p>Publication: <a href="https://doi.org/10.1016/j.ebiom.2023.104777" target="_blank" rel="noopener">Predictive models of long COVID</a> (eBioMedicine, 2023)</p>
+</div>
 
-Poster: [Zoonosis Prediction Using Language Models Poster](/files/2023-07-06-ismb-zoonosis-prediction-using-language-models-poster.pdf)
-
-## Predictive Models of Long COVID
-Prediction of the poorly understood post-acute sequelae of SARS-CoV-2 infection (PASC, or long COVID) based on information derived from the electronic health records (EHRs) of acute COVID-19 infection available in the [National COVID Cohort Collaborative](https://ncats.nih.gov/n3c) — the largest harmonized repository of EHRs of COVID-19 patients in the US.
-
-- Trained logistic regression and random forest models using features such as the symptoms experienced by the COVID-19 patients, the drugs ordered or administered to them, the measures of COVID-19 treatment, comorbidities, and demographic information. Labeled COVID-19 patients diagnosed with U09.9 ICD10-CM code as long COVID patients.
-- Leveraged Boruta method for feature selection and k-fold cross-validation based hyperparameter search for optimal model configuration yielding mean AUROC of 0.70
- - Computed the local interpretation of predictions using SHAP method and performed novel cross-site analysis to evaluate the impact of different data sources on long COVID prediction models and their generalizability.
-
-Publication: [Predictive Models of Long COVID](https://doi.org/10.1016/j.ebiom.2023.104777) 
-
-## Aarogya – An Intelligent Multi-Agent Pediatric System
-An intelligent system offering pediatric services to counter the infant mortality rate caused by the unavailability of pediatricians in rural India. The project was funded by the Department of Science and Technology, Government of India through the Innovation and Entrepreneurship Development Center at Fr.Conceicao Rodrigues College of Engineering.
-- Implemented intelligent agents, using Java Agent Development Framework 4.3.3, to gather information using an adaptive questionnaire, ascertain the disease and prescribe treatment.
-- Developed an android application as the user interface for patients requiring the services of the intelligent system.
+<div class="project">
+<h2>Aarogya &ndash; An Intelligent Multi-Agent Pediatric System</h2>
+<p><em>Undergraduate research, Fr. Conceicao Rodrigues College of Engineering &middot; funded by the Department of Science and Technology, Government of India</em></p>
+<p>An intelligent system offering pediatric services to counter infant mortality caused by the unavailability of pediatricians in rural India. Implemented intelligent agents using the Java Agent Development Framework to gather information through an adaptive questionnaire, ascertain the disease, and prescribe treatment, with an Android application as the patient-facing interface.</p>
+</div>

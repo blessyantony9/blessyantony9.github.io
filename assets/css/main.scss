@@ -1,41 +1,215 @@
 ---
 ---
+:root {
+  --bg: #faf8f4;
+  --bg-alt: #f2efe8;
+  --text: #3a3936;
+  --muted: #6b6a66;
+  --accent: #6b8f71;
+  --accent-dark: #557260;
+  --border: #e4e0d6;
+  --max-width: 760px;
+}
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+* { box-sizing: border-box; }
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+}
 
-@import "reset";
-@import "base";
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
 
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
+h1, h2, h3, h4 {
+  font-family: "Lora", Georgia, serif;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.3;
+}
 
-@import "forms";
+h1 { font-size: 2rem; margin: 0 0 0.75rem; }
+h2 { font-size: 1.4rem; margin: 2.25rem 0 0.75rem; }
+h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
 
-@import "page";
-@import "archive";
-@import "sidebar";
+p { margin: 0 0 1rem; }
 
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
+a {
+  color: var(--accent-dark);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+ul, ol { padding-left: 1.3rem; }
+li { margin-bottom: 0.4rem; }
+
+/* Header / nav */
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-alt);
+}
+
+.site-nav {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.1rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.site-nav__home {
+  font-family: "Lora", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--text);
+  border-bottom: none;
+}
+
+.site-nav__links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav__links li { margin-bottom: 0; }
+
+.site-nav__links a {
+  color: var(--muted);
+  border-bottom: none;
+  font-size: 0.95rem;
+}
+
+.site-nav__links a:hover,
+.site-nav__links a[aria-current="page"] {
+  color: var(--accent-dark);
+}
+
+/* Main content */
+.site-main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+.page__title { margin-bottom: 1.5rem; }
+
+/* About / bio */
+.bio {
+  display: flex;
+  gap: 1.75rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.bio__photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.bio__intro { flex: 1; min-width: 240px; }
+.bio__intro h1 { margin-top: 0; }
+
+/* Publications */
+.pub-group h2:first-child { margin-top: 1rem; }
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pub-list li {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.pub-list li:last-child { border-bottom: none; }
+
+.pub__title { font-weight: 500; }
+.pub__meta { color: var(--muted); font-size: 0.92rem; margin-top: 0.15rem; }
+
+/* Research / projects */
+.project {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.project:last-child { border-bottom: none; }
+.project h2 { margin-top: 0.25rem; }
+
+/* CV */
+.cv-download {
+  display: inline-block;
+  padding: 0.65rem 1.25rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.cv-download:hover {
+  background: var(--accent-dark);
+  color: #fff;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--bg-alt);
+  text-align: center;
+  padding: 2rem 1.25rem;
+  margin-top: 3rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  padding: 0;
+  margin: 0 0 0.75rem;
+}
+
+.social-links a {
+  border-bottom: none;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.social-links a:hover { color: var(--accent-dark); }
+
+.site-footer__copy {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .bio { flex-direction: column; align-items: center; text-align: center; }
+  h1 { font-size: 1.6rem; }
+}

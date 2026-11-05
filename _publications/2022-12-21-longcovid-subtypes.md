@@ -1,6 +1,7 @@
 ---
 title: "Generalisable long COVID subtypes: findings from the NIH N3C and RECOVER programmes"
 collection: publications
+type: peer-reviewed
 permalink: /publication/2022-12-21-longcovid-subtypes
 date: 2022-12-21
 venue: 'eBioMedicine'
@@ -8,3 +9,7 @@ paperurl: 'https://doi.org/10.1016/j.ebiom.2022.104413'
 
 citation: 'Reese, J. T. et al. Generalisable long COVID subtypes: findings from the NIH N3C and RECOVER programmes. eBioMedicine 87, 104413 (2023).'
 ---
+
+{{ page.citation }}
+
+[View paper]({{ page.paperurl }})

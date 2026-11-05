@@ -1,15 +1,24 @@
 ---
 permalink: /
 title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
+layout: page
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a Postdoctoral Researcher in the [NSF COMPASS Center](https://compass-pipp.org/) at Virginia Tech, Blacksburg, USA. I am co-advised by [Dr. T. M. Murali](https://bioinformatics.cs.vt.edu/~murali/) and [Dr. Anuj Karpatne](https://anujkarpatne.github.io/). I completed my Ph.D. in Computer Science at Virginia Tech under the mentorship of Dr. Murali and Dr. Karpatne.
+<div class="bio">
+  <img src="{{ "/images/blessyantony.jpg" | relative_url }}" alt="Blessy Antony" class="bio__photo">
+  <div class="bio__intro">
+    <h1>Blessy Antony, Ph.D.</h1>
+    <p>Postdoctoral Research Fellow, NSF COMPASS Center &middot; Virginia Tech</p>
+  </div>
+</div>
 
-My research interests include solving impactful problems in Computational Biology and Bioinformatics using Natural Language Processing and Graph Machine Learning. Currently, I am using language models to draw information from viral genome and study the evolution of viruses. 
+I am a Postdoctoral Research Fellow in the [NSF COMPASS Center](https://compass-pipp.org/) at Virginia Tech, Blacksburg, USA, advised by [Dr. T. M. Murali](https://bioinformatics.cs.vt.edu/~murali/) and [Dr. Anuj Karpatne](https://anujkarpatne.github.io/). I completed my Ph.D. in Computer Science at Virginia Tech under their mentorship in December 2025.
 
-Prior to starting graduate school, I completed my bachelor's degree in Computer Engineering at University of Mumbai, India in 2016. Thereafter, I worked as a Software Engineer for J.P. Morgan Chase & Co. at Mumbai for four years. The industrial experience helped me hone my software development skills and learn about the journey of an application from proof-of-concept to deployment in production.
+My current research develops computational approaches to model organoids — three-dimensional multicellular structures derived from stem cells that mimic native organ function. I'm building an agentic framework that orchestrates computational methods predicting cellular responses to perturbations, aimed at modeling organoid maturation, and implementing in silico models to simulate experimental conditions and reduce the time and resources needed for wet-lab analyses.
+
+This builds on my Ph.D. work at the intersection of natural language processing, protein language models, and computational biology: I designed [VILLA](/research/), a retrieval-augmented generation framework for retrieving information from scientific publications using LLMs, and [HAVEN](/research/), a viral protein language model that predicts the host of a virus from its protein sequence. I also worked on machine learning models to predict long COVID (PASC) from electronic health records as part of the National Clinical Cohort Collaborative (N3C).
+
+Prior to graduate school, I earned my bachelor's degree in Computer Engineering from the University of Mumbai, India (2016), and spent four years as a Software Engineer at J.P. Morgan Chase & Co. in Mumbai — experience that shaped how I think about building and shipping research software.
