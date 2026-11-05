@@ -5,12 +5,6 @@ permalink: /research/
 ---
 
 <div class="project">
-<h2>Modeling Organoid Maturation</h2>
-<p><em>Postdoctoral research, NSF COMPASS Center, Virginia Tech &middot; 2026&ndash;present</em></p>
-<p>Developing computational approaches to model organoids — three-dimensional multicellular structures derived from stem cells that mimic native organ function. I'm orchestrating several computational methods that predict cellular responses to perturbations into an agentic framework for modeling organoid maturation, and implementing in silico models of organoids to simulate different experimental conditions, reducing the time and resources needed for exploratory wet-lab analyses.</p>
-</div>
-
-<div class="project">
 <h2>VILLA: Retrieval-Augmented Information Extraction from the Literature</h2>
 <p><em>Ph.D. research, Murali Lab, Virginia Tech</em></p>
 <p>Designed VILLA, a retrieval-augmented generation (RAG) framework to accurately retrieve information from scientific publications using large language models. Benchmarked general-purpose and domain-specific LLMs, and RAG- and agent-based frameworks, for curating datasets in virology, working with virologists from the NSF COMPASS Center to obtain ground-truth datasets.</p>

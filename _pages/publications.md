@@ -17,6 +17,7 @@ The latest list is also on [Google Scholar]({{ site.author.googlescholar }}).
   {% for pub in peer_reviewed %}
   <li>
     <div class="pub__title">{% if pub.paperurl %}<a href="{{ pub.paperurl }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</div>
+    <div class="pub__authors">{{ pub.authors | replace: "Antony, B.", "<strong>Antony, B.</strong>" }}</div>
     <div class="pub__meta">{{ pub.venue }}, {{ pub.date | date: "%Y" }}</div>
   </li>
   {% endfor %}
@@ -31,6 +32,7 @@ The latest list is also on [Google Scholar]({{ site.author.googlescholar }}).
   {% for pub in preprints %}
   <li>
     <div class="pub__title">{% if pub.paperurl %}<a href="{{ pub.paperurl }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</div>
+    <div class="pub__authors">{{ pub.authors | replace: "Antony, B.", "<strong>Antony, B.</strong>" }}</div>
     <div class="pub__meta">{{ pub.venue }}, {{ pub.date | date: "%Y" }}</div>
   </li>
   {% endfor %}
@@ -45,6 +47,7 @@ The latest list is also on [Google Scholar]({{ site.author.googlescholar }}).
   {% for pub in under_review %}
   <li>
     <div class="pub__title">{{ pub.title }}</div>
+    <div class="pub__authors">{{ pub.authors | replace: "Antony, B.", "<strong>Antony, B.</strong>" }}</div>
     <div class="pub__meta">{{ pub.venue }}, {{ pub.date | date: "%Y" }}</div>
   </li>
   {% endfor %}

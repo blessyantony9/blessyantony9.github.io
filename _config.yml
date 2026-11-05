@@ -2,7 +2,7 @@
 locale                   : "en-US"
 title                    : "Blessy Antony"
 title_separator          : "-"
-name                     : &name "Blessy Antony, Ph.D."
+name                     : &name "Blessy Antony"
 description              : &description "Postdoctoral Researcher at the NSF COMPASS Center, Virginia Tech"
 url                      : https://blessyantony9.github.io
 baseurl                  : ""
@@ -22,7 +22,7 @@ timezone: America/New_York
 
 # Site Author
 author:
-  name             : "Blessy Antony, Ph.D."
+  name             : "Blessy Antony"
   avatar           : "blessyantony.jpg"
   bio              : "Postdoctoral Researcher | Virginia Tech. Computational Biology, Natural Language Processing, Protein Language Models."
   location         : "Blacksburg, VA, USA"
