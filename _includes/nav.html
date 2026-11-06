@@ -1,6 +1,8 @@
 <header class="site-header">
   <nav class="site-nav">
-    <a class="site-nav__home" href="{{ "/" | relative_url }}">{{ site.author.name }}</a>
+    <div class="site-nav__brand">
+      <a class="site-nav__home" href="{{ "/" | relative_url }}">{{ site.author.name }}</a>
+    </div>
     <ul class="site-nav__links">
       <li><a href="{{ "/" | relative_url }}" {% if page.url == "/" %}aria-current="page"{% endif %}>About</a></li>
       <li><a href="{{ "/publications/" | relative_url }}" {% if page.url == "/publications/" %}aria-current="page"{% endif %}>Publications</a></li>
