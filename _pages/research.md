@@ -20,7 +20,7 @@ permalink: /research/
 
 <div class="project">
 <h2>Predictive Models of Long COVID</h2>
-<p><em>Ph.D. research, National Clinical Cohort Collaborative (N3C)</em></p>
+<p><em>Ph.D. research, Virginia Tech</em></p>
 <p>Built machine learning models to predict post-acute sequelae of SARS-CoV-2 infection (PASC, or long COVID) from the electronic health records of acute COVID-19 patients in the <a href="https://ncats.nih.gov/n3c" target="_blank" rel="noopener">National Clinical Cohort Collaborative</a> — the largest harmonized EHR repository of COVID-19 patients in the US.</p>
 <p>Trained logistic regression and random forest models using symptoms, medications, treatment measures, comorbidities, and demographic information; used Boruta feature selection and k-fold cross-validation, reaching a mean AUROC of 0.70. Identified risk factors using SHAP-based interpretation and performed a cross-site analysis of how different data sources affect model generalizability.</p>
 <p>Publication: <a href="https://doi.org/10.1016/j.ebiom.2023.104777" target="_blank" rel="noopener">Predictive models of long COVID</a> (eBioMedicine, 2023)</p>
