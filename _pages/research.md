@@ -15,7 +15,7 @@ permalink: /research/
 <h2>HAVEN: A Viral Protein Language Model for Host Prediction</h2>
 <p><em>Ph.D. research, Virginia Tech</em></p>
 <p>Developed HAVEN, a viral protein language model with a hierarchical self-attention architecture that generates rich embeddings for viral protein sequences of any length. Pretrained HAVEN on 1.2 million viral protein sequences using masked language modeling, then fine-tuned it on a systematically curated virus-host dataset so it can accept any viral protein sequence and predict its host. Assessed generalizability by integrating HAVEN with a few-shot learning framework to predict rare and unseen hosts.</p>
-<p>Related talk: <a href="https://iscb.junolive.co/ismb2023/library/search/ISMBECCB2023_1710" target="_blank" rel="noopener">Zoonosis Prediction Using Language Models</a> &middot; <a href="/files/2023-07-06-ismb-zoonosis-prediction-using-language-models-poster.pdf" target="_blank" rel="noopener">poster</a></p>
+<p>Related talk: <a href="https://iscb.junolive.co/ismb2023/library/search/ISMBECCB2023_1710" target="_blank" rel="noopener">Zoonosis Prediction Using Language Models</a></p>
 </div>
 
 <div class="project">
