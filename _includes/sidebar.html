@@ -1,0 +1,16 @@
+<aside class="sidebar">
+  <img src="{{ "/images/" | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="sidebar__photo">
+  <h1 class="sidebar__name">{{ site.author.name }}</h1>
+  <p class="sidebar__role">Postdoctoral Research Fellow<br>NSF COMPASS Center, Virginia Tech</p>
+  {% if site.author.location %}<p class="sidebar__location">{{ site.author.location }}</p>{% endif %}
+
+  <nav class="sidebar__nav">
+    <ul>
+      <li><a href="{{ "/" | relative_url }}" {% if page.url == "/" %}aria-current="page"{% endif %}>About</a></li>
+      <li><a href="{{ "/publications/" | relative_url }}" {% if page.url == "/publications/" %}aria-current="page"{% endif %}>Publications</a></li>
+      <li><a href="{{ "/research/" | relative_url }}" {% if page.url == "/research/" %}aria-current="page"{% endif %}>Research</a></li>
+    </ul>
+  </nav>
+
+  {% include social-links.html %}
+</aside>
