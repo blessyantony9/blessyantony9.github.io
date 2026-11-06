@@ -11,7 +11,7 @@ redirect_from:
   <img src="{{ "/images/blessyantony.jpg" | relative_url }}" alt="Blessy Antony" class="bio__photo">
   <div class="bio__intro">
     <h1>Blessy Antony</h1>
-    <p>Postdoctoral Research Fellow &middot; NSF COMPASS Center, Virginia Tech</p>
+    <p>Postdoctoral Research Fellow<br>NSF COMPASS Center, Virginia Tech</p>
   </div>
 </div>
 
