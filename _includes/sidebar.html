@@ -2,7 +2,9 @@
   <img src="{{ "/images/" | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="sidebar__photo">
   <p class="sidebar__name">{{ site.author.name }}</p>
   <p class="sidebar__role">Postdoctoral Research Fellow<br>NSF COMPASS Center, Virginia Tech</p>
-  {% if site.author.location %}<p class="sidebar__location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>{{ site.author.location }}</span></p>{% endif %}
+  <div class="sidebar__contacts">
+    {% if site.author.location %}<p class="sidebar__location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>{{ site.author.location }}</span></p>{% endif %}
 
-  {% include social-links.html %}
+    {% include social-links.html %}
+  </div>
 </aside>
